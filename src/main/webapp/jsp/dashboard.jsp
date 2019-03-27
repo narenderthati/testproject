@@ -6,34 +6,45 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>AptechGlobal | Employee | login</title>
+		<title>AptechGlobal | Employee</title>
 		<link rel="stylesheet" type="text/css" href="<c:url value='/css/styles.css'/>">
 	</head>
 	<body>
 			<div id="header">
 				<span> Employee</span>
 			</div>
-			<div id="login-css" align="center">
-			<form action="/employee/login.do" method="post">
+			<div style="clear:both;"></div>
+			<div align="center">
+				<table>
+					<tr>
+						<td> Employee ID</td>
+						<td>${employee.emp_id}</td>
+							
+					</tr>
+					<tr>
+						<td>First Name</td>
+						<td>${employee.f_name}</td>
+					</tr>
+					<tr>
+						<td>Last Name</td>
+						<td>${employee.l_name}</td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>${employee.email_id }</td>
+					</tr>
+					<tr>
+						<td>Date Of Birth</td>
+						<td>${employee.dob }</td>
+					</tr>
+					<tr>
+						<td>User Name</td>
+						<td>${employee.userName }</td>
+					</tr>
 				
-				<div> ${error} </div>
-				
-				<table id="login">
-					<tr>
-						<td><input type="text" placeholder=" Username" name="userName"/></td>
-					</tr>
-					<tr>
-						<td><input type="password" placeholder=" password" name="password"/></td>
-					</tr>
-					<tr>
-						<td>
-							<input type="submit" name="Login" title="login" value="Login"/>
-							 <a href='<c:url value="/register.jsp"/>'>New? click here to register</a>
-						</td>
-					</tr>
-					
 				</table>
-				</form>
+			
 			</div>
+
 </body>
 </html>
