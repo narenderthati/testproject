@@ -1,0 +1,52 @@
+body{
+	margin:0px 0px;
+	margin-top:0px;
+	padding:0px;
+	
+}
+#header{
+	text-align: center;
+	background-color: #f0f0f0;
+	width:100%;
+	height: 80px;
+}
+
+#header >span{
+	font-size: 2em;
+}
+
+
+#menu{
+	
+	  list-style-type: none;
+  margin: 30px;
+padding: 0; 
+ text-align: center;
+ 
+
+}
+#menu li{
+  display: inline-block;
+
+}
+
+#menu li a{
+	width:60px;
+	padding: 20px 50px;
+	background-color:#4CAF50;
+	color:#fff;
+	text-decoration: none;
+}
+
+
+#login tr{
+	height: 2em;
+}
+#login tr td input[type="text"]{
+	width: 280px;
+	padding:3px;
+}
+#login tr td input[type="password"]{
+	width: 280px;
+	padding:3px;
+}
